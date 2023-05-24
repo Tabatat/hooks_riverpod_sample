@@ -2,6 +2,8 @@
 
 hooks_riverpodのサンプル実装
 
+thank you riverpod_graph.  
+https://github.com/rrousselGit/riverpod/tree/master/packages/riverpod_graph
 ```mermaid
 flowchart TB
   subgraph Arrows
