@@ -6,8 +6,8 @@ import 'vegetable.dart';
 ///ここで使うのはStateProvider、簡単な値を保持するために使われる。
 ///他のProviderは↓参照
 ///https://docs-v2.riverpod.dev/docs/concepts/providers#different-types-of-providers
-///String型を保持し、初期値は"ゲスト"で定義してる。
-final usernameProvider = StateProvider<String>((ref) => "ゲスト");
+///String型を保持し、初期値は""で定義してる。
+final usernameProvider = StateProvider<String>((ref) => "");
 
 ///カートアイテムを保持するプロバイダー。
 ///ここで管理するのはList<Vegetable>という単純じゃない値なので、StateNotifierProviderを使用する。
