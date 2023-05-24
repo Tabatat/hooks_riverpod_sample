@@ -81,7 +81,7 @@ class LoginScreen extends HookConsumerWidget {
                 style: TextButton.styleFrom(
                   backgroundColor: isActive.value ?
                   Theme.of(context).colorScheme.inversePrimary:
-                  Theme.of(context).colorScheme.onBackground,
+                  Colors.grey,
                 ),
 
                 ///ボタンの中に表示するテキスト
