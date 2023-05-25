@@ -10,7 +10,7 @@ class ItemListScreen extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     ///WidgetRefを使用してproviderを呼び出す。
-    ///ref.watchとref.readがある。
+    ///基本的にはref.watchで値を呼び出して監視する。
     ///watchで宣言した場合、providerの値が変更されるたびに再評価される。
     final username = ref.watch(usernameProvider);
     final cart = ref.watch(cartItemProvider);
